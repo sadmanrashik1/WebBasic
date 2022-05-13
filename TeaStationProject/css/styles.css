@@ -148,63 +148,63 @@ p {
 Animation
 ========
 */
-@keyframes bounce{
-  0%{
+@keyframes bounce {
+  0% {
     transform: scale(1);
   }
-  50%{
+  50% {
     transform: scale(1.5);
   }
-  100%{
+  100% {
     transform: scale(1);
   }
 }
-@keyframes slideFromRight{
-  0%{
+@keyframes slideFromRight {
+  0% {
     transform: translateX(1000px);
     opacity: 0;
   }
-  50%{
+  50% {
     transform: translateX(-200px);
     opacity: 0.5;
   }
-  75%{
+  75% {
     transform: translateX(50px);
     opacity: 0.75;
   }
-  100%{
+  100% {
     transform: translateX(0px);
     opacity: 1;
   }
 }
-@keyframes slideFromLeft{
-  0%{
+@keyframes slideFromLeft {
+  0% {
     transform: translateX(-1000px);
     opacity: 0;
   }
-  50%{
+  50% {
     transform: translateX(200px);
     opacity: 0.5;
   }
-  75%{
+  75% {
     transform: translateX(-50px);
     opacity: 0.75;
   }
-  100%{
+  100% {
     transform: translateX(0px);
     opacity: 1;
   }
 }
-@keyframes show{
-  0%{
+@keyframes show {
+  0% {
     transform: scale(1);
     opacity: 0;
   }
-  50%{
+  50% {
     transform: scale(1.5);
     opacity: 0.5;
   }
-  100%{
+  100% {
     transform: scale(1);
     opacity: 1;
   }
@@ -239,7 +239,7 @@ Navigation bar
   transition: var(--transition);
 }
 .showNav {
-   transform: translate(0);
+  transform: translate(0);
 }
 .navbar-header {
   text-align: right;
@@ -285,9 +285,8 @@ Header
 */
 .header {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/main-bcg.jpeg) center/ cover fixed no-repeat;
-  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/main-bcg.jpeg) center/ cover fixed no-repeat;
+  /* position: relative; */
   overflow-x: hidden;
 }
 .banner {
@@ -309,9 +308,7 @@ Header
   margin-top: 1.25rem;
   margin-bottom: 2rem;
   /* animation */
-    animation: slideFromLeft 5s ease-in-out 1;
-
-  
+  animation: slideFromLeft 5s ease-in-out 1;
 }
 .banner-btn {
   outline: 0.125rem solid var(--clr-primary);
